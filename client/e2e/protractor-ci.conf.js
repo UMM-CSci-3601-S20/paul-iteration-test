@@ -10,6 +10,6 @@ config.capabilities = {
 config.highlightDelay = undefined;
 
 config.seleniumServerJar = process.env.SELENIUM_JAR_PATH;
-config.chromeDriver = process.env.CHROMEWEBDRIVER;
+config.chromeDriver = process.env.CHROMEWEBDRIVER + '/chromedriver';
 
 exports.config = config;
